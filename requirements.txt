@@ -1,0 +1,11 @@
+streamlit
+flask
+sqlalchemy
+passlib
+python-dotenv
+requests
+pandas
+numpy
+matplotlib
+scipy
+agno
