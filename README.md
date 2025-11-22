@@ -142,3 +142,4 @@ Este projeto está sob a licença MIT.
 ## 💬 Contato
 
 Se quiser expandir este agente ou criar um dashboard visual avançado, estou pronto para ajudar!
+# AGNO-FinanceAgent
