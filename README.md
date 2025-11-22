@@ -90,7 +90,7 @@ pip install -r requirements.txt
 ## ▶️ Como Rodar
 
 ```bash
-python main.py
+streamlit run app.py
 ```
 
 O agente será iniciado e pronto para responder com dados financeiros reais.
@@ -102,14 +102,14 @@ O agente será iniciado e pronto para responder com dados financeiros reais.
 **Pergunta:**
 
 ```
-Quero investir 1000 reais por mês durante 12 meses. Quanto terei no final pelo SELIC, CDI e IPCA?
+Quero investir 1000 reais por mês durante 12 meses. Quanto terei no final pelo Tesouro SELIC, CDI e IPCA?
 ```
 
 **Resposta do Agente (exemplo):**
 
-* Tesouro Selic: R$ 6.909,99
-* CDI: R$ 6.909,99
-* IPCA: R$ 1.468,10
+* Tesouro Selic: R$ 12.728,00
+* CDI: R$ R$ 12.630,00
+* IPCA: R$ R$ 12.310,00
 
 ---
 
@@ -132,6 +132,14 @@ git push origin minha-feature
 ```
 
 ---
+
+## Observação Importante
+
+Para segurança dos dados, o arquivo .env foi removido. 
+Caso faça o git clone do projeto, adicione o arquivo com as seguintes informações:
+SECRET_KEY=(Sua SecretKey)
+PYTHONPATH=
+OPENAI_API_KEY=(Sua chave)
 
 ## 📜 Licença
 
